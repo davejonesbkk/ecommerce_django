@@ -1,0 +1,11 @@
+Why not pandas?
+
+Another answer suggests:
+
+Why not use pandas?
+Pandas is a common library, but it's not in the standard library. Adding it as a dependency is non-trivial.
+
+There are builtin solutions for this use-case in the list object itself as well as in the standard library.
+
+If your project does not already require pandas, it would be foolish to make it a requirement just for this functionality.
+

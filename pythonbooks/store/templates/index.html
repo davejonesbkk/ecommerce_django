@@ -1,0 +1,22 @@
+<html>
+<head>
+
+</head>
+
+<body>
+
+<p>Books</p>
+
+{% block content %}
+
+	<form action="/" method="POST">
+		{% csrf_token %}
+		{{ form }}
+		<input type="submit" value="Save" />
+	</form>
+
+{% endblock %}
+
+</body>
+
+</html>
